@@ -1,0 +1,49 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#targetColor {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 16px;
+  border: 3px solid #333;
+}
+
+#choices {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.choice {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 2px solid #555;
+  transition: 0.2s;
+}
+
+.choice:hover {
+  transform: scale(1.05);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
